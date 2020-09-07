@@ -1,12 +1,20 @@
 import React from "react"
-import Footer from "./Footer"
-import Header from "./Header"
+import style from "./style.css"
 
 function App() {
     return (
         <div>
-            <Header />
-            <Footer />
+            <input type="checkbox" />
+            <p className="para">Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
         </div>
     )
 }
