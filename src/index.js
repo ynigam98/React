@@ -17,7 +17,7 @@ function MyInfo() {
   }
 
   return (
-  <h1> Good {timeofDay} !</h1>
+  <h1 style={{color:"red", backgroundColor:"blue"}}> Good {timeofDay} !</h1>
   )
 }
 
